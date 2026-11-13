@@ -1,27 +1,27 @@
 class Deaddrop < Formula
-  desc "Leech a torrent without seeding, age-encrypt it, and hand it off over iroh"
+  desc "Leech a torrent without seeding and hand it off peer-to-peer over iroh"
   homepage "https://deaddrop.rip"
   license "Unlicense"
 
   on_macos do
     on_arm do
-      url "https://github.com/asheliahut/deaddrop/releases/download/v1.0.0/deaddrop-v1.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "61612e3c9c7a19d7dd5b209427ab5b81257b83a5358cb28dab6ab302f423166c"
+      url "https://github.com/asheliahut/deaddrop/releases/download/v2.0.0/deaddrop-v2.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "acd09db814d3ab08d347f9c36f91539b9d68957407e0ac88e0d27011f3d77d55"
     end
     on_intel do
-      url "https://github.com/asheliahut/deaddrop/releases/download/v1.0.0/deaddrop-v1.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "7361f37a317457b8660b4bc3cc5741b13fe6d9af702e0165251ea19343f6ec18"
+      url "https://github.com/asheliahut/deaddrop/releases/download/v2.0.0/deaddrop-v2.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "290fd8cc9ca0e489f97f1d60551e9a3dd9253981e682072f9f5af4ea4c2ae623"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/asheliahut/deaddrop/releases/download/v1.0.0/deaddrop-v1.0.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "91e601f3633c90ee6a0a9bc09654c06cf21dcaa0deee73a26d527c9391f019f7"
+      url "https://github.com/asheliahut/deaddrop/releases/download/v2.0.0/deaddrop-v2.0.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "df0e60796134531e579d1d0c6bb87ff1e5797517b83830e719997d8a623a1783"
     end
     on_intel do
-      url "https://github.com/asheliahut/deaddrop/releases/download/v1.0.0/deaddrop-v1.0.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f6846f641938c4b4a83cb96791f4812a7426c12a8a31fc83b44c4e673ee2b48c"
+      url "https://github.com/asheliahut/deaddrop/releases/download/v2.0.0/deaddrop-v2.0.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "4fe191bf206978322cba1af04f80cf569091ca74d2d8c7bbb5a801319678a706"
     end
   end
 
