@@ -5,23 +5,23 @@ class Deaddrop < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/asheliahut/deaddrop/releases/download/v2.0.0/deaddrop-v2.0.0-aarch64-apple-darwin.tar.gz"
-      sha256 "acd09db814d3ab08d347f9c36f91539b9d68957407e0ac88e0d27011f3d77d55"
+      url "https://github.com/asheliahut/deaddrop/releases/download/v2.1.0/deaddrop-v2.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3817067bdd057571e82bd05fcda1ac020ce650d85012029ab5d432f6622f6767"
     end
     on_intel do
-      url "https://github.com/asheliahut/deaddrop/releases/download/v2.0.0/deaddrop-v2.0.0-x86_64-apple-darwin.tar.gz"
-      sha256 "290fd8cc9ca0e489f97f1d60551e9a3dd9253981e682072f9f5af4ea4c2ae623"
+      url "https://github.com/asheliahut/deaddrop/releases/download/v2.1.0/deaddrop-v2.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5b681378241dd5dcc9ca7343050b9737e8548a019478ef97647cd70c443dce96"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/asheliahut/deaddrop/releases/download/v2.0.0/deaddrop-v2.0.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "df0e60796134531e579d1d0c6bb87ff1e5797517b83830e719997d8a623a1783"
+      url "https://github.com/asheliahut/deaddrop/releases/download/v2.1.0/deaddrop-v2.1.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "cfd405039f46e86f99d39afc6871d6934b7f3709cd200e327a04751eda779c95"
     end
     on_intel do
-      url "https://github.com/asheliahut/deaddrop/releases/download/v2.0.0/deaddrop-v2.0.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "4fe191bf206978322cba1af04f80cf569091ca74d2d8c7bbb5a801319678a706"
+      url "https://github.com/asheliahut/deaddrop/releases/download/v2.1.0/deaddrop-v2.1.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "34d8ba7967e4262fe3319b84ced7794a330156671dcae66d2022a28fb59adb64"
     end
   end
 
